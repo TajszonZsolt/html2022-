@@ -1,10 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps&subset=latin,latin-ext);
 
 body{
-    font-family: serif;
+    font-family: Arial,  sans-serif;
+    size: 16px;
 }
 
-/* menü stíluselemek */
+/* menï¿½ stï¿½luselemek */
 
 #menusor{
     background-color: #ff9c00;
@@ -22,21 +23,24 @@ body{
     text-decoration: underline;
 }
 
-/* táblázat stíluselemek */
+/* tï¿½blï¿½zat stï¿½luselemek */
 
 table{
     border-collapse: collapse;
     margin: 20px auto;
 }
 table, th, td{
-    border: 0;
+    border: 1px solid#666;
 }
 
-/* ûrlap stíluselemek */
+/* ï¿½rlap stï¿½luselemek */
 
 .mezosor{
     padding: 8px;
+padding:1em
+
 }
+
 .mezosor .cimke{
     width: 200px;
 }
@@ -62,6 +66,8 @@ table, th, td{
 .mezosor .mezo input[type='reset']{
     height: 30px;
     margin: 10px;
+    width:120px;
+    background-color: #ccc;
 }
 .mezosor.z1{
     background-color: #fef6e7;
@@ -70,7 +76,7 @@ table, th, td{
     background-color: #fffbf4;
 }
 
-/* egyéb stíluselemek */
+/* egyï¿½b stï¿½luselemek */
 
 #cimsor, #menusor, #tartalom{
     width: 740px;
