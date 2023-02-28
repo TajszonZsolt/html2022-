@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+<meta charset="utf-8">
+<title>Med-Im Bt.</title>
+<body>
+
+    <div id="cimsor">
+        <div id="cimsor_felsodisz"></div>
+        <div id="cimsor_bal"></div>
+        <div id="cimsor_kozep">
+            <h1>Med-Im Bt.</h1>
+            <p>Dr. Imrédy A. József háziorvos és szívspecialista honlapja</p>
+        </div>
+        <div id="cimsor_jobb"></div>
+        <div id="cimsor_alsodisz"></div>
+    </div>
+    <div id="menusor">
+        <span><a href="index.html">Aktualitások</a></span>
+        <span><a href="szabadsagok.html">Szabadságok</a></span>
+        <span><a href="kapcsolat.html">Kapcsolat</a></span>
+        <span id="aktiv"><a href="hirlevel.html">Hírlevél</a></span>
+    </div>
+    <div id="tartalom">
+        <h1>Hírlevél<img src="envelope" alt="Boríték"></h1>
+        <p>Hírlevélre való feliratkozáshoz írjon címünkre, a levél tárgyában tüntesse fel, hogy 'feliratkozás'. Ha a hírlevélről le szeretne iratkozni, azt ugyanígy teheti, de a levél tárgyában 'leiratkozás' szerepeljen.</p>
+    </div>
+    <div id="oldal_alja"></div>
+</body>
+</html>

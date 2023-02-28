@@ -1,0 +1,129 @@
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps&subset=latin,latin-ext);
+
+body{
+    font-family: serif;
+}
+
+/* menü stíluselemek */
+
+#menusor{
+    background-color: #ff9c00;
+}
+#menusor span{
+    padding: 0 15px;
+    margin: 0 30px;
+}
+#menusor a, #menusor a:link, #menusor a:visited{
+    color: #0063ff;
+    font-weight: bold;
+    text-decoration: none;
+}
+#menusor a:hover{
+    text-decoration: underline;
+}
+
+/* táblázat stíluselemek */
+
+table{
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+table, th, td{
+    border: 0;
+}
+
+/* ûrlap stíluselemek */
+
+.mezosor{
+    padding: 8px;
+}
+.mezosor .cimke{
+    width: 200px;
+}
+.mezosor .mezo{
+    width: 650px;
+}
+
+.mezosor .mezo input{
+    width: 250px;
+}
+#szul_ev{
+    width: 40px;
+}
+#szul_nap{
+    width: 30px;
+}
+
+.mezosor .mezo input[type='checkbox'],
+.mezosor .mezo input[type='radio']{
+    width: 30px;
+}
+.mezosor .mezo input[type='submit'],
+.mezosor .mezo input[type='reset']{
+    height: 30px;
+    margin: 10px;
+}
+.mezosor.z1{
+    background-color: #fef6e7;
+}
+.mezosor.z2{
+    background-color: #fffbf4;
+}
+
+/* egyéb stíluselemek */
+
+#cimsor, #menusor, #tartalom{
+    width: 740px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cimsor h1{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 36px;
+    text-align: center;
+}
+#cimsor p{
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+#cimsor_felsodisz{
+    height: 20px;
+    background: #fff url('narancshej_teteje.gif') no-repeat center center;
+}
+#cimsor_alsodisz{
+    height: 20px;
+    background-color: #fc6;
+    clear: both;
+}
+#cimsor_bal{
+    float: left;
+    width: 180px;
+    height: 160px;
+    background: #fff url('orvos.jpg') no-repeat center center;
+}
+#cimsor_kozep{
+    float: left;
+    width: 380px;
+    padding-top: 20px;
+}
+
+#cimsor_jobb{
+    float: left;
+    width: 180px;
+    height: 160px;
+    background: #fff url('kereszt.gif') no-repeat center center;
+}
+#oldal_alja{
+    height: 20px;
+    background: #fff url('narancshej_alja.gif') no-repeat center center;
+}
+#tartalom h1{
+    text-align: center;
+}
+#tartalom img{
+    float: right;
+}
+

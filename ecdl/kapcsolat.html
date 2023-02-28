@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Med-Im Bt.</title>
+</head>
+<body>
+
+    <div id="cimsor">
+        <div id="cimsor_felsodisz"></div>
+        <div id="cimsor_bal"></div>
+        <div id="cimsor_kozep">
+            <h1>Med-Im Bt.</h1>
+            <p>Dr. Imrédy A. József háziorvos és szívspecialista honlapja</p>
+        </div>
+        <div id="cimsor_jobb"></div>
+        <div id="cimsor_alsodisz"></div>
+    </div>
+    <div id="menusor">
+        <span><a href="index.html">Aktualitások</a></span>
+        <span><a href="szabadsagok.html">Szabadságok</a></span>
+        <span id="aktiv"><a href="kapcsolat.html">Kapcsolat</a></span>
+        <span><a href="hirlevel.html">Hírlevél</a></span>
+    </div>
+    <div id="tartalom">
+        <h1>Kapcsolat</h1>
+        <form method="post">
+            <fieldset>
+                <legend>töltse ki az alábbi űrlapot</legend>
+            <div class="mezosor z1">
+                <div class="cimke">Név:</div>
+                <div class="mezo"><input type="text" name="nev" value=""></div>
+            </div>
+            <div class="mezosor z2">
+                <div class="cimke">Születési hely:</div>
+                <div class="mezo"><input type="password" name="pw1" value=""></div>
+            </div>
+            <div class="mezosor z1">
+                <div class="cimke">Születési idő:</div>
+                <div class="mezo"><input type="text" name="szul_ev" value="" id="szul_ev">. 
+                    <select name="szul_ho">
+                        <option value="00">- válasszon hónapot -</option>
+                        <option value="01">január</option>
+                        <option value="02">február</option>
+                        <option value="03">március</option>
+                        <option value="04">április</option>
+                        <option value="05">május</option>
+                        <option value="06">június</option>
+                        <option value="07">július</option>
+                        <option value="08">augusztus</option>
+                        <option value="09">szeptember</option>
+                        <option value="10">október</option>
+                        <option value="11">november</option>
+                        <option value="12">december</option>
+                    </select>
+                    <input type="text" name="szul_nap" value="" id="szul_nap">.
+                </div>
+            </div>
+            <div class="mezosor z2">
+                <div class="cimke">Üzenet:</div>
+                <div class="mezo"><textarea name="megjegyzes" rows="5" cols="40"></textarea></div>
+            </div>
+            <div class="mezosor z1">
+                <div class="cimke">&nbsp;</div>
+                <div class="mezo"><input type="submit" name="ok" value="küldés">
+                <input type="submit" name="ok" value="adatok törlése"></div>
+            </div>
+          </fieldset>
+        </form>
+    </div>
+    <div id="oldal_alja"></div>
+</body>
+</html>
